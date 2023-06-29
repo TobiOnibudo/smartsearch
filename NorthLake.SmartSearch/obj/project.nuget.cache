@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y7J0NlqIc5z7GvJKmFp6v7rMBVA5e97UQuMB/4zIDcFZ7bWP99QL+E4+9uAaxTh0Uxpp/XhQn+aggLV+bmrnAQ==",
+  "success": true,
+  "projectFilePath": "/Users/trushashah/Projects/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj",
+  "expectedPackageFiles": [
+    "/Users/trushashah/.nuget/packages/mysqlconnector/2.2.6/mysqlconnector.2.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}
