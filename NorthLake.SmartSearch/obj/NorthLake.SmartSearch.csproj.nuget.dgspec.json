@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/trushashah/Projects/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj": {}
+    "/Users/oluwatobilobaonibudo/Documents/nsbay/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj": {}
   },
   "projects": {
-    "/Users/trushashah/Projects/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj": {
+    "/Users/oluwatobilobaonibudo/Documents/nsbay/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/trushashah/Projects/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj",
+        "projectUniqueName": "/Users/oluwatobilobaonibudo/Documents/nsbay/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj",
         "projectName": "NorthLake.SmartSearch",
-        "projectPath": "/Users/trushashah/Projects/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj",
-        "packagesPath": "/Users/trushashah/.nuget/packages/",
-        "outputPath": "/Users/trushashah/Projects/NorthLake.SmartSearch/NorthLake.SmartSearch/obj/",
+        "projectPath": "/Users/oluwatobilobaonibudo/Documents/nsbay/NorthLake.SmartSearch/NorthLake.SmartSearch/NorthLake.SmartSearch.csproj",
+        "packagesPath": "/Users/oluwatobilobaonibudo/.nuget/packages/",
+        "outputPath": "/Users/oluwatobilobaonibudo/Documents/nsbay/NorthLake.SmartSearch/NorthLake.SmartSearch/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/trushashah/.nuget/NuGet/NuGet.Config"
+          "/Users/oluwatobilobaonibudo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,9 +39,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.2.6, )"
+            },
+            "Node.js": {
+              "target": "Package",
+              "version": "[5.3.0, )"
             }
           },
           "imports": [
@@ -63,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

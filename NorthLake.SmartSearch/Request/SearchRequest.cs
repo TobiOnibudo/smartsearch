@@ -4,12 +4,12 @@ namespace NorthLake.SmartSearch.Request
     public class SearchRequest
     {
 
-        public string CompanyCIK
+        public string? CompanyCIK
         {
             get;
             set;
         }
-        public string Company
+        public string CompanyName
         {
             get;
             set;

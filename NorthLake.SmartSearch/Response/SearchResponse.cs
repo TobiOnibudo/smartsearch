@@ -3,7 +3,7 @@ namespace NorthLake.SmartSearch.Response
 {
     public class SearchResponse
     {
-        public string FormType
+        public string? FormType
         {
             get;
             set;
@@ -15,13 +15,13 @@ namespace NorthLake.SmartSearch.Response
             set;
 
         }
-        public string FilingDate
+        public string? FilingDate
         {
             get;
             set;
 
         }
-        public string SEC
+        public string? SEC
         {
             get;
             set;
